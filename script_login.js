@@ -1,5 +1,4 @@
-
-  document.getElementById('loginpg').addEventListener('submit', async function (event) {
+document.getElementById('loginpg').addEventListener('submit', async function (event) {
     event.preventDefault();
 
     const Loginid = document.getElementById('Loginid').value;

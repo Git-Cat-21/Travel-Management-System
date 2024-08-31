@@ -10,9 +10,17 @@
 - Open the index.html file, right-click, and select "Open with Live Server."
 - Open your preferred browser and navigate to localhost:5500 to start using Voyage Vista
 
+-------
 
+### Signup-page/Login-page/Booking-page:
+- Open your terminal and execute the following command:  ```node server_signup.js```/ ```node server_login.js```/ ```node server_book.js```
+- After running the command, navigate back to the webpage and complete the signup form/ login form/ booking page.
+-------
 
-
-
-
-
+### Database Access:
+- All data is stored in MongoDB under the mydatabase database within the users collection. 
+- You can view the data using MongoDB Compass or via the terminal with the following commands:
+1. Run ```mongosh``` in your terminal.
+2. Switch to the database with ```use mydatabase```
+3. View the user data with ```db.users.find().pretty()```
+4. Good luck exploring your data!
